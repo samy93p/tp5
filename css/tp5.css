@@ -1,0 +1,149 @@
+header {
+	background-color: #000000;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url("../img/dinosaure.jpg");
+	background-position: center;
+	background-size: cover;
+	color: #ffffff;
+	padding: 1em;
+	text-align: center;
+}
+li {
+	display: inline-block;
+}
+.menu li {
+	list-style-type: none;
+}
+.menu a {
+	display: block;
+	min-width: 120px;
+	margin: 0.5rem;
+	padding: 0.4rem 0;
+	text-align: center;
+	color: grey;
+	text-decoration: none;
+	border: 1px solid grey;
+	border-radius: 4px;
+	transition: all 1s;
+}
+.menu a.actif {
+	background-color: grey;
+	color: grey;
+	border-color: grey;
+}
+.menu a:hover,
+.menu a:hover.actif {
+	color: grey;
+	border-color: grey;
+}
+#logo1 {
+	text-align: center;
+}
+#logo2 {
+	text-align: end;
+}
+h1 {
+	text-align: center;
+	font-size: 80px;
+}
+#entree {
+	text-align: center;
+}
+.paragraphe {
+	position: relative;
+	width: 70%;
+	margin: auto;
+}
+h2 {
+	width: 50%;
+	margin: auto;
+}
+#bouton {
+	margin: auto;
+	display: block;
+	background-color: #719fee;
+	border-radius: 10px;
+	border: 4px double #1f69ec;
+	color: #ffffff;
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+	width: 200px;
+	cursor: pointer;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.bouton:hover {
+	background-color: #ffffff;
+	border: 2px solid #1f69ec;
+	box-shadow: 10px 5px 5px #719fee;
+	color: #1f69ec;
+	text-align: center;
+	font-size: 22px;
+}
+.bouton2 {
+	display: block;
+	background-color: #719fee;
+	border-radius: 10px;
+	border: 4px double #1f69ec;
+	color: #ffffff;
+	text-align: center;
+	font-size: 20px;
+	padding: 10px;
+	width: 200px;
+	cursor: pointer;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.bouton2:hover {
+	background-color: #ffffff;
+	border: 2px solid #1f69ec;
+	box-shadow: 10px 5px 5px #719fee;
+	color: #1f69ec;
+	text-align: center;
+	font-size: 22px;
+}
+.tarif {
+	justify-content: center;
+}
+section {
+	display: flex;
+}
+#section2 {
+	margin-top: -450px;
+}
+#ligne {
+	margin-top: 250px;
+	margin-left: -500px;
+}
+#maps {
+	margin-left: 300px;
+}
+#partenaires {
+	text-align: center;
+	margin-top: 400px;
+}
+#espace {
+	display: flex;
+	justify-content: center;
+	justify-content: space-evenly;
+}
+footer {
+	background: black;
+	color: white;
+	height: 300px;
+}
+footer #bas img {
+	float: right;
+	background-color: black;
+	margin-top: -50px;
+}
+footer dd {
+	margin-top: 10px;
+	text-align: center;
+	margin-left: -400px;
+}
